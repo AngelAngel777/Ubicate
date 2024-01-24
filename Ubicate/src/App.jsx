@@ -1,10 +1,11 @@
 import './App.css'
-import Button from 'react-bootstrap/Button';
+import MainConteiner from './MainConteiner.jsx'
 
 function App() {
+
   return (
     <>
-      <Button variant="info">Hola Mundo</Button>
+     <MainConteiner></MainConteiner>
     </>
   )
 }

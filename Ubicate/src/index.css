@@ -66,3 +66,19 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* DESDE ACA COMIENZAN LOS ESTILOS PERSONALIZADOS, ARRIBA ESTAN LOS POR DEFECTO  */
+
+.carruselFondo{
+  border: solid 10px darkblue;
+  width: 100%;
+  height: 100vh;
+}
+
+.carruselContenedor{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+}
