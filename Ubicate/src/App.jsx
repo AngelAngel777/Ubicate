@@ -1,11 +1,13 @@
 import './App.css'
 import MainConteiner from './MainConteiner.jsx'
+import NavBar from './NavBar.jsx'
 
 function App() {
 
   return (
     <>
-     <MainConteiner></MainConteiner>
+    <NavBar></NavBar>
+    <MainConteiner></MainConteiner>
     </>
   )
 }
